@@ -4,7 +4,7 @@ import { KindeProvider } from "@kinde-oss/kinde-auth-react";
 import Landing from './pages/landing-page'
 import Error404 from './pages/error/Error404'
 import Layout from './pages/Layout'
-import Pricing from './pages/pricing';
+import Pricing from './sections/Pricing';
 
 function App() {
 

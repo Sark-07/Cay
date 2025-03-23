@@ -1,5 +1,5 @@
 import React from 'react'
-import PricingCard from '../../sections/components/PricingCard'
+import PricingCard from './components/PricingCard'
 
 type Props = {}
 
