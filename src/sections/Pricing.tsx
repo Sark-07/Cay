@@ -6,7 +6,7 @@ type Props = {}
 const Pricing = (props: Props) => {
     return (
         <>
-            <section className='w-full flex gap-4 items-center justify-center relative z-[99999] h-[calc(100vh-4em)]'>
+            <section className='w-full flex gap-4 items-center justify-center relative z-[99999] py-12'>
                 <div className='w-full py-4 flex justify-center gap-4'>
                     <PricingCard index={0} color='#262626' title='Free' text={``} />
                     <PricingCard index={1} color='#262626' title='Professional' text={`We will process your file and get it ready to generate questions`} />

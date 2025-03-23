@@ -4,7 +4,6 @@ import { KindeProvider } from "@kinde-oss/kinde-auth-react";
 import Landing from './pages/landing-page'
 import Error404 from './pages/error/Error404'
 import Layout from './pages/Layout'
-import Pricing from './sections/Pricing';
 
 function App() {
 
@@ -19,7 +18,6 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Landing />} />
-            <Route path='/pricing' element={<Pricing />} />
             <Route path='*' element={<Error404 />} />
           </Route>
         </Routes>
